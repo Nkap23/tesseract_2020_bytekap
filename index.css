@@ -211,3 +211,65 @@ body{
 .blog-home2 .bg-info-gradiant {
     background:#16B2DB;
 }
+
+.column{
+    float:left;
+    width:33.3%;
+    margin-bottom:16px;
+    padding:0 8px;
+}
+.roww{
+    text-align:center;
+}
+.containerr3 h2{
+    background:-webkit-linear-gradient(#F97206, #D34105);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.cardd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}  
+.containerr3{
+    padding:0 16px;
+    background-color:white;
+    width:60%;
+    margin:auto;
+}
+.containerr3::after,.roww::after{
+    content:"";
+    clear:both;
+    display:table;
+}  
+.titlee{
+color:grey;
+}
+.button{
+    border:none;
+    outline:0;
+    display:inline-block;
+    padding:8px;
+    color:white;
+    background-color:#f97206;
+    text-align:center;
+    cursor:pointer;
+    width:100%;
+} 
+.button:hover{
+    background-color:#D34105;
+}
+.roww h1{
+    font-size:50px;
+    padding:19px;
+    letter-spacing:5px;
+    font-family:"Courier New",Courier,monospace;
+    background:-webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-align:center;
+    margin-top:-60px;
+}
+.roww img{
+    border-top-right-radius:5px;    
+    border-top-left-radius:5px;
+}
