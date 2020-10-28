@@ -91,9 +91,8 @@ body{
     text-align:left;
 }
 
-
 .containerr2 h1{
-    font-size:3rem;
+    font-size:50px;
     padding:19px;
     letter-spacing:5px;
     font-family:"Courier New",Courier,monospace;
@@ -161,6 +160,11 @@ body{
     background:-webkit-linear-gradient(white, #38495a);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
+    font-size:50px;
+}
+.font-weight-normal{
+    color:white;
+    letter-spacing:5px;
 }
 .mt-3{
     text-align:center;
@@ -169,7 +173,6 @@ body{
     background-color:white !important;
 }
 .blog-home2 .subtitle{
-    color:#8d97ad;
     line-height:24px;
 }
 .blog-home2 .text-themecolor{
