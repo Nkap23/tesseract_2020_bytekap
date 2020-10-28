@@ -5,7 +5,10 @@ body{
     margin:0;
     padding:0;
     border:none;
-    background: radial-gradient(ellipse at bottom, #033C67 0%, #090a0f 100%);    
+    background: radial-gradient(ellipse at bottom, #033C67 0%, #090a0f 100%);
+    height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
 }
 #headerr{
     width:100%;
@@ -86,6 +89,51 @@ body{
 }
 .main-text h3{
     text-align:left;
+}
+
+
+.containerr2 h1{
+    font-size:3rem;
+    padding:19px;
+    letter-spacing:5px;
+    font-family:"Courier New",Courier,monospace;
+    background:-webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-align:center;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size:2rem;
+    line-height:1;
+    margin:0 2rem;
+    font-family:"Courier New",Courier,monospace;
+}
+
+.countdown-el{
+    padding:0px 4px;
+    margin:auto;
+    text-align:center;
+    display:block;
+    color:white;
+}
+
+.countdown-el span{
+    font-size:1rem;
+}
+.containerr2{
+    display:block;
+    width:100%;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    background-size: 120%;
+    height:150px;
+    background-color:transparent;
 }
   
 #title{
